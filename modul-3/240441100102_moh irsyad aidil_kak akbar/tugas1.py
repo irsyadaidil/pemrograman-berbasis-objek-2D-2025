@@ -49,10 +49,10 @@ class ManajemenKaryawan:
 manajemen = ManajemenKaryawan()
 
 
-karyawan1 = KaryawanTetap("Andi", 8000000, "IT", 2000000)
-karyawan2 = KaryawanHarian("Budi", 100000, "Produksi", 8)
-karyawan3 = KaryawanTetap("Citra", 9000000, "HRD", 2500000)
-karyawan4 = KaryawanHarian("Dina", 120000, "Marketing", 7)
+karyawan1 = KaryawanTetap("kiki", 8000000, "IT", 2000000)
+karyawan2 = KaryawanHarian("irsyad", 100000, "Produksi", 8)
+karyawan3 = KaryawanTetap("bima", 9000000, "HRD", 2500000)
+karyawan4 = KaryawanHarian("arz", 120000, "Marketing", 7)
 
 
 manajemen.tambah_karyawan(karyawan1)

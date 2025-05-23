@@ -1,4 +1,4 @@
-# Kelas untuk menyimpan data buku
+
 class Buku:
     def __init__(self, judul, penulis, jumlah_halaman):
         self.__judul = judul
@@ -14,7 +14,7 @@ class Buku:
     def get_jumlah_halaman(self):
         return self.__jumlah_halaman
 
-# Kelas untuk mengelola perpustakaan
+
 class Perpustakaan:
     def __init__(self):
         self.daftar_buku = []
@@ -31,7 +31,6 @@ class Perpustakaan:
         else:
             print("❌ Tidak ada buku di perpustakaan.")
 
-# Fungsi utama dengan menu
 def main():
     perpustakaan = Perpustakaan()
 
@@ -63,5 +62,4 @@ def main():
         else:
             print("❌ Pilihan tidak valid. Coba lagi.")
 
-# Jalankan program
 main()
